@@ -22,7 +22,7 @@ module.exports = function ()
 
         //connect the database
         mongoose
-        .connect( db.database,{useNewUrlParser: true,useCreateIndex: true})
+        .connect( db.database,{useNewUrlParser: true,useCreateIndex: true,useUnifiedTopology: true})
         .then(()=>console.log("Connected to DB at " + db.database))
         .catch((error)=>console.log(error));
 
