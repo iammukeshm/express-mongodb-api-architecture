@@ -18,10 +18,18 @@ Step 1 : Are you Node-Ready?
 Make sure you have the latest version of npm installed.You can check the version by going to command promprt and typing in 'npm -v'.If it says that npm is an unrecognized keyword, Node is not installed on your system. Head over to the official site of Node and install the latest build of Node.
 
 Step 2: Setting up the Project Folder.
+
 Step 3 : Initialize the Project
+
 Step 4 : Install Required Modules
+
 Step 5 : Setting up and Understanding the Architecture
+
 Step 6 : Adding Model
+
 Step 7 : Adding Controller
+
 Step 8 : Adding Service
+
 Step 9 : Testing with Postman
+
