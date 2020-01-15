@@ -3,8 +3,7 @@ const User = require('../models/user');
 const db = require('../configs/database');
 
 const auth = async(req, res, next) => 
-{
-     
+{     
     try 
     {
         const token = req.header('Authorization').replace('Bearer ', ''); 
