@@ -1,5 +1,6 @@
 const express = require('express');
 const User = require('../models/user');
+const auth = require('../middlewares/auth');
 
 const registerUser = async (req, res, next) => 
 {
@@ -31,7 +32,14 @@ const login = async(req, res,next) =>
         res.status(400).send(error)
     }
 }
+
+const userProfile = async(req, res) => 
+{
+    res.send(req.user);
+}
+
 module.exports = {
     registerUser: registerUser,
-    login: login
+    login: login,
+    userProfile: userProfile
 }
