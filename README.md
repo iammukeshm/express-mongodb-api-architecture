@@ -36,5 +36,5 @@ Step 9 : Testing with Postman
 ## Learn React.
 ### Pre-Requisites
 - Concepts of HTML5 and JS.
-- Basic Knowledge of ES6.
+- Basic Knowledge of ES6. - https://hackernoon.com/es6-for-beginners-f98120b57414
 - NPM
