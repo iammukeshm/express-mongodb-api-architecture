@@ -33,8 +33,8 @@ Step 8 : Adding Service
 
 Step 9 : Testing with Postman
 
-##Learn React.
-###Pre-Requisites
+## Learn React.
+### Pre-Requisites
 - Concepts of HTML5 and JS.
 - Basic Knowledge of ES6.
 - NPM
